@@ -1,0 +1,355 @@
+
+
+.img {
+    position: relative;
+}
+
+.contains {
+    position: absolute;
+    top: 90px;
+    left: 40px;
+}
+
+
+
+.img2 {
+    position: relative;
+}
+
+.contains2 {
+    position: absolute;
+    left: 220px;
+    top: 50px;
+}
+
+
+.img3 {
+    position: relative;
+}
+
+.contains3 {
+    position: absolute;
+    top: 50px;
+    left: 30%;
+}
+
+
+.img_bur {
+    position: absolute;
+    top: 75%;
+    transform: translateY(-50%);
+    left: 0;
+    bottom: unset;
+    right: unset;
+}
+
+
+.back_img {
+    position: relative;
+}
+
+.abc {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+}
+
+
+
+
+.banner_image {
+    position: relative;
+}
+
+.lower-image {
+    width: 150px;
+    /* Adjust the size as needed */
+    bottom: -35px;
+    /* Move the image below the main image, adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+
+.highlights {
+    background-color: rgb(255, 253, 231);
+    background-image: url("https://ap-fazfood.myshopify.com/cdn/shop/files/Group_145.png?v=1703235343&width=2000");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.quality {
+    background-color: rgb(255, 253, 231);
+}
+
+
+.back_img2 {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    left: 40%;
+}
+
+
+.back_img3 {
+    background-image: url("https://ap-fazfood.myshopify.com/cdn/shop/files/Frame.png?v=1702710295&width=2000");
+
+}
+
+
+
+.section {
+    margin-top: 200px;
+}
+
+.img_back {
+    background-image: url("https://ap-fazfood.myshopify.com/cdn/shop/files/Newsletter_2.png?v=1701068852&width=2000");
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.ul a {
+    color: aliceblue;
+
+}
+
+
+/* .foot_col{
+    padding: 2rem;
+} */
+
+
+.icon i {
+    margin-top: 9px;
+}
+.bgc {
+    background-image: url('../Images/zomoto.webp'); /* Adjust the path based on your file structure */
+    background-size: cover; /* Make sure the image covers the entire column */
+    background-position: start; /* Center the background image */
+    height: 100vh; /* Set a heght for the column */
+    color: white; /* Optional: Change text color for better visibility */
+    display: flex; /* Center text vertically */
+    flex-direction: column; /* Stack text elements vertically */
+    justify-content: start; /* Center content vertically */
+    align-items: start; /* Center content horizontally */
+  }
+  
+   .button1 {
+    background: linear-gradient(to right, red 50%, green 50%);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+}
+
+.button1:hover {
+    background-position: left bottom;
+}
+
+.button1 i {
+    margin-left: 10px;
+}
+.menu-items {
+    overflow: hidden; /* Prevents overflow */
+}
+
+.menu-item {
+    color: black; /* Default text color */
+    white-space: nowrap; /* Prevents line breaks */
+    text-overflow: ellipsis; /* Adds '...' for overflowed text */
+    overflow: hidden; /* Hides overflowing content */
+}
+
+.menu-item span {
+    color: red; /* Highlighting item name */
+}
+
+.menu-item p {
+    margin: 0; /* Removes default margin */
+    color: black; /* Text color for descriptions */
+}
+.custom-button {
+    transition: background-color 0.3s ease, color 0.3s ease;
+    color: #28a745; /* Bootstrap success color */
+    border-color: #28a745; /* Bootstrap success border color */
+}
+
+.custom-button:hover {
+    background-color: #dc3545; /* Red color on hover */
+    color: white; /* Text color change on hover */
+    border-color: #dc3545; /* Change border color on hover */
+}
+.custom-background {
+    background-image: url('../Images/menu1.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 100%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+}
+
+
+.custom-background1 {
+    background-image: url('../Images/menu2.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 140%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: '50rem'; /* Align items to the start */
+}
+
+
+.custom-button {
+    margin-top: 20px; /* Space above the button */
+}
+
+
+
+.main {
+    text-align: center;
+}
+
+.button1 {
+    background: linear-gradient(to right, red 50%, green 50%);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+}
+
+.button1:hover {
+    background-position: left bottom;
+}
+
+.button1 i {
+    margin-left: 10px;
+}
+
+.puti {
+    background-image: url('../Images/frame1.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 140%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 54px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: '50rem'; /* Align items to the start */
+}
+.first1 {
+    background-image: url('../Images/1.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 140%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.back_img2 {
+    /* background-image: url('../Images/Group_89_1.webp'); */
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 140%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: '50rem'; /* Align items to the start */
+}
+/* 
+.highlights {
+    background-image: url("/Images/Group_145.webp");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.banner_image {
+    position: relative;
+}*/
+
+
+.lower-image {
+    width: 150px;
+    bottom: -35px; /* Move the image below the main image, adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+} 
+.marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+.marquee-inner {
+    display: inline-block;
+    padding-left: 100%; /* Start off the screen */
+    animation: marquee 10s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}
+body {
+    overflow-x: hidden;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.first1 {
+    text-align: center;
+}
+

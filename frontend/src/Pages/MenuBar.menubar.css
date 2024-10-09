@@ -1,0 +1,182 @@
+.product-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 400px; /* Base height */
+    max-height: 500px; /* Max height */
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+
+.product-card::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: #e7eaee;
+    transition: top 0.3s ease;
+    z-index: -2;
+}
+
+.product-card:hover::before {
+    top: 0;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto; /* Change to auto for responsiveness */
+    max-height: 200px; /* Set max height */
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1rem; 
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-card .stars {
+    color: #f39c12; 
+    margin-bottom: 15px;
+}
+
+.product-card .description {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+    margin-bottom: 20px;
+    line-height: 1.4;
+}
+
+.product-card .price {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #e74c3c;
+    margin-bottom: 10px;
+}
+
+.icon-container, .icon-container1 {
+    transition: color 0.3s ease, transform 0.3s ease; 
+}
+
+.icon-container:hover {
+    color: rgb(255, 18, 18);
+    transform: scale(1.2); 
+}
+
+.icon-container1:hover {
+    color: rgb(204, 13, 13);
+    transform: scale(1.2); 
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .product-card {
+        min-height: 300px; /* Adjust for smaller screens */
+    }
+
+    .card-img-top {
+        max-height: 150px; /* Adjust image height for smaller screens */
+    }
+
+    .product-card h3 {
+        font-size: 0.9rem; /* Adjust fo
+        nt size for headings */
+    }
+
+    .product-card .price {
+        font-size: 1rem; /* Adjust font size for price */
+    }
+}
+.custom-background {
+    background-image: url('../Images/menu1.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 100%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start */
+}
+
+
+.custom-background1 {
+    background-image: url('../Images/menu2.webp');
+    background-size: cover; 
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    min-height: 140%; /* Adjust height as needed */
+    color: white; /* Set text color for contrast */
+    padding: 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: '50rem'; /* Align items to the start */
+}
+
+
+.custom-button {
+    margin-top: 20px; /* Space above the button */
+}
+.background-image {
+    background-image: url('../Images//menu2.webp');
+    background-size: cover;
+    background-position: center;
+    height:25rem; /* Adjust as needed */
+}
+
+
+.main {
+    text-align: center;
+}
+
+.devesh {
+    background-image: url('../Images/bgmenu2.webp');
+    background-size: cover;
+    background-position: center;
+    height:25rem; /* Adjust as needed */
+}
+.button1 {
+    background: linear-gradient(to right, red 50%, green 50%);
+    color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: background-position 0.5s ease;
+}
+
+.button1:hover {
+    background-position: left bottom;
+}
+
+.button1 i {
+    margin-left: 10px;
+}
+/* first contasiner bgimg */
+.menubg {
+    background-image: url('../Images/menubg1.webp');
+    background-size: cover;
+    background-position: center;
+    height:10rem;
+    border-radius: 2rem;
+}
